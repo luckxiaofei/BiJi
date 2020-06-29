@@ -34,21 +34,3 @@
 
 
 
-## 常用的接口及其作用
-
-```java
-ApplicationContextAware
-  作用：spring启动时，会扫描实现了该接口的bean，然后把上下文（ApplicationContext）注入进来。
-
-BeanPostProcessor
-  作用：每个bean实例化完成之后，都会调用该接口的方法
-  
-InvocationHandler
-  作用：代理接口
-  
-InitializingBean
-  作用：bean初始化时执行
-
-
-```
-
